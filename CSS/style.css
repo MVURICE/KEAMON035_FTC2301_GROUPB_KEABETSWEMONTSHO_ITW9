@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* ============================ HEADER =========================== */
+.banner{
+
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    color: white;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-image: url(../Images/henry-be-lc7xcWebECc-unsplash\ \(1\)\ \(1\).jpg);
+    background-size: cover;
+    height: auto;
+}
+
+.menu{
+    background-color: #197279;
+}
+
+.menu nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation_bar{
+    background-color: #61A1E2;
+    padding: 15px;
+}
+
+.picture_title{
+    display: flex;
+    flex: 3;
+    justify-content: right;;
+}
+
+.introductory{
+    flex: 2;
+    margin: 3.5vw 1.5vw;
+
+}
+
+.name_title h2{
+    margin: 0;
+}
+
+.name_title{
+    flex: 3;
+    margin-top: 3vw;
+    
+}
+
+.Profile_picture{
+    flex: 1;
+    margin: auto 1.5vw;
+
+}
+
+.Profile_picture img{
+    border-radius: 50%;
+    border: 10px #197279 solid;
+}
+
+.fa-github{
+    color: #197279;
+    font-size: 3.8vw;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menu a:hover{
+    color: #197279;
+    font-size: 1.5rem;}
+
+.contact_github{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.contact_github a{ 
+     margin: 5px;
+
+}
+
+
+.contact_github button{
+    padding: .7vw;
+    border-radius: 10%;
+    background-color: #197279;
+    color: white;
+    border: none;
+    margin-top: 0.5vw;
+}
+
+.menu ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* ============================= BODY ============================= */
+
+body{
+    background-color: #D5E6E0;
+}
+
+/* ============================= MAIN ============================= */
+
+main h2{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+section{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main{
+    margin: 1.52vw 0;
+}
+
+h2{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+article{
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+}
+
+
+
+/* **********************= skills_section =************************ */
+
+
+#otherSkills, #software, #toolsoftrade, #languages{
+    
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+.headings{
+    margin: 5px;
+}
+
+
+#SkillsDemo img{
+    width: 30px;
+
+}
+
+.headings{
+    display: block;
+}
+
+#SkillsDemo h4{
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.skillsContent {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+ 
+.skillsContent div{
+    background-color: #FFE8D2;
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    padding: 10px;
+ 
+}
+
+.skillsContent ul li{
+    list-style-type: none;
+}
+/* =========================== Education and certification ======================= */
+
+.educationContent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #FFE8D2;
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+}
+
+/* ============================== Work =============================== */
+
+#work article{
+    display: flex;
+    justify-content: right;
+}
+
+
+.work , .responsibilities_accomplishments{
+    margin:  5px;
+}
+
+#work article{
+    background-color: #FFE8D2;
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ===================== contacts ====================== */
+
+.clear{
+    clear: both;
+    height: 10vh;
+}
+
+
+
+#contacts article{
+    background-color: #FFE8D2;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 20%);
+}
+
+
+/* ================================== FORM ==============================*/
+
+#submit:hover, #reset:hover{
+    background-color: #197279;
+    color: #FFE8D2;
+    font-size: 25px;
+}
+
+.form-buttons{
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit, #reset{
+    font-size: 20px;
+}
+
+
+.choices{
+    display: block;
+}
+
+input, select, option{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+textarea{
+    border-radius: 10px;
+}
+
+form{
+    width: 40vw;
+    margin: 10px auto;
+}
+
+.choices{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: none;
+}
+
+
+/* ========================= FOOTER ======================= */
+
+.contact_icons{
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer a{
+    margin: .5vw;
+}
+
+footer .fa-github, footer .fa-linkedin, footer .fa-twitter,footer .fa-instagram,.fa-sharp{
+    color: #61A1E2;
+    font-size: 50px;
+}
+
+footer{
+    height: 100px;
+    background-color: #197279;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.highlight{
+    background-color: #209ea7;
+    margin-bottom: 0.5vw;
+
+}
