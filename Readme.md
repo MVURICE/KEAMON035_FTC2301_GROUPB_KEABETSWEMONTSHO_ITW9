@@ -21,5 +21,3 @@ The website can be accessed by opening the index.html file in a web browser. The
 ## Credits
 The website was created by Keabetswe Maurice Monthso as part of their portfolio of front end development work. 
 
-## License
-This website is licensed under the [insert type of license here]. Please refer to the LICENSE file for more information.
