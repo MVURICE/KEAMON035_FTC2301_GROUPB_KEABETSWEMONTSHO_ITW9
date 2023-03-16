@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
 /* ============================ HEADER =========================== */
 .banner{
 
@@ -89,7 +90,8 @@ header{
 
 .menu a:hover{
     color: #197279;
-    font-size: 1.5rem;}
+    font-size: 1.5rem;
+}
 
 .contact_github{
     color: white;
@@ -99,7 +101,7 @@ header{
 }
 
 .contact_github a{ 
-     margin: 5px;
+    margin: 5px;
 
 }
 
@@ -230,7 +232,7 @@ article{
 
 #work article{
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 
@@ -336,6 +338,14 @@ footer a{
 footer .fa-github, footer .fa-linkedin, footer .fa-twitter,footer .fa-instagram,.fa-sharp{
     color: #61A1E2;
     font-size: 50px;
+    padding: 5px;
+}
+
+footer .fa-github:hover, footer .fa-linkedin:hover, footer .fa-twitter:hover,footer .fa-instagram:hover,.fa-sharp:hover{
+    color: #6eb7ff;
+    font-size: 55px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.555);
 }
 
 footer{
@@ -351,3 +361,303 @@ footer{
     margin-bottom: 0.5vw;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ===================== Mobile ======================= */
+
+
+@media only screen and (max-width: 426px) {
+
+/* *************************** Header **************************** */
+    .menu ul li{
+        text-align: center;
+        font-size: medium;
+        margin: 2px;
+    }    
+    
+    .fa-github{
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 20px;
+
+    }
+
+    .name_title h2{
+
+        font-size: 15px;
+        
+    }
+    .Profile_picture img{
+        
+        width: 115px;
+        height: 115px;
+    }
+
+    .introductory{
+        font-size: small;
+        margin: 3vw 1.5vw;
+        
+    }
+
+    .menu nav ul {
+        width: 80%;
+    }
+    .Profile_picture{
+
+        margin: 2.2vw;
+    }
+
+/* *************************** main **************************** */
+ 
+    main h2{
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    section{
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h2{
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+
+    h3{
+        margin-bottom: 5px;
+    }
+
+    article{
+        margin: 0 15px 15px 15px;
+    }
+
+    /* **************************** skills ********************** */
+
+    .headings{
+        margin: 2.5px;
+    }
+    
+    
+    #SkillsDemo img{
+        width: 25px;
+    
+    }
+        
+    .skillsContent {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 15px;
+    }
+     
+     /* **************************** work ********************** */
+
+    .work , .responsibilities_accomplishments{
+        margin:  5px;
+    }
+    
+    #work article{
+        background-color: #FFE8D2;
+        box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 20%);
+        border-radius: 5px;
+        
+    }
+    
+    /* **************************** form ********************** */
+
+
+    .form-buttons{
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #submit, #reset{
+        font-size: 10px;
+    }
+    
+    
+    .choices{
+        display: block;
+    }
+    
+    input, select, option{
+        padding: 5px;
+    }
+    
+    textarea{
+        border-radius: 10px;
+    }
+    
+    form{
+        width: 50vw;
+        margin: 10px auto;
+    }
+    
+    .choices{
+        margin-top: 4px;
+        margin-bottom: 3px;
+    }
+    
+    fieldset{
+        padding: 10px;
+    }
+    
+     /* **************************** footer ********************** */
+
+    footer a{
+        margin: .5vw;
+    }
+    
+    footer .fa-github, footer .fa-linkedin, footer .fa-twitter,footer .fa-instagram,.fa-sharp{
+        font-size: 40px;
+    }
+    
+    
+    .highlight{
+        background-color: #209ea7;
+        margin-bottom: .5vw;
+    
+    }
+}
+
+
+
+
+
+
+
+/* ======================== TABLET =================================  */
+
+@media only screen and (max-width: 769px) {
+
+    /* *************************** Header **************************** */
+        .menu ul li{
+            margin: 4px;
+        }    
+        
+        .fa-github{
+            font-size: 35px;
+        }
+    
+        h1{
+            font-size: 25px;
+    
+        }
+    
+        .name_title h2{
+    
+            font-size: 20px;
+            
+        }
+        .Profile_picture img{
+            
+            width: 125px;
+            height: 125px;
+        }
+    
+        .introductory{
+            font-size: medium; 
+        }
+
+        .menu nav ul {
+            width: 90%;
+        }
+
+        .Profile_picture{
+    
+            margin: 2.2vw;
+        }
+    
+    /* *************************** main **************************** */
+     
+        main h2{
+            padding-bottom: 15px;
+            text-align: center;
+        }
+    
+        section{
+            width: 85%;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    
+        h2{
+            margin-top: 60px;
+            margin-bottom: 15px;
+        }
+    
+        h3{
+            margin-bottom: 10px;
+        }
+    
+        
+        /* **************************** skills ********************** */        
+        
+        #SkillsDemo img{
+            width: 25px;
+        
+        }
+         
+         /* **************************** work ********************** */
+    
+        .work , .responsibilities_accomplishments{
+            margin:  8px;
+        }
+        
+        #work article{
+            background-color: #FFE8D2;
+            box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 20%);
+            border-radius: 5px;
+            
+        }
+        
+        /* **************************** form ********************** */
+    
+    
+        .form-buttons{
+            margin-top: 5px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #submit, #reset{
+            font-size: 15px;
+        }
+        
+               
+        input, select, option{
+            padding: 10px;
+        }
+        
+        
+        form{
+            width: 50vw;
+            margin: 10px auto;
+        }
+        
+         /* **************************** footer ********************** */
+    
+        footer a{
+            margin: .5vw;
+        }
+        
+        footer .fa-github, footer .fa-linkedin, footer .fa-twitter,footer .fa-instagram,.fa-sharp{
+            font-size: 45px;
+        }
+        
+        
+    }
+    
