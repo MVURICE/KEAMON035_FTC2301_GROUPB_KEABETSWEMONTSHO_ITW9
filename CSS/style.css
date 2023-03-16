@@ -379,6 +379,7 @@ footer{
 
 /* *************************** Header **************************** */
     .menu ul li{
+        width: 100%;
         text-align: center;
         font-size: medium;
         margin: 2px;
